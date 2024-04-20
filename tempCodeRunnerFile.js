@@ -1,1 +1,7 @@
-https://theync.com/media/thumbs/1/2/0/4/7/1204767643f9eb0683b9.mp4/1204767643f9eb0683b9.mp4-3.jpg
+console.log(prime(97));
+// const f = prime(97);
+// let array = [];
+// if (f === 0) {
+//   return 0;
+// } else array.push(f);
+// console.log(array);
