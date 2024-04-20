@@ -30,3 +30,5 @@ open(convertedURL)
   .catch((error) => {
     console.error("Failed to open in browser:", error);
   });
+
+console.log("hello");
