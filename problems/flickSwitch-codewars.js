@@ -1,14 +1,6 @@
-function flickSwitch(arr) {
-  let newarray = [];
-  let switchM = false;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === "flick") {
-      switchM = !switchM;
-      newarray.push(!switchM);
-    } else {
-      newarray.push(!switchM);
-    }
-  }
-  return newarray;
+function flickSwitch(arr){
+  let returning = true;
+    return arr.map( (v) => {
+      return (v === "flick") ? returning = !returning : returning;
+    })
 }
-console.log(flickSwitch(arr));
